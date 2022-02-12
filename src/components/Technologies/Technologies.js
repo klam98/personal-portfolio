@@ -10,26 +10,38 @@ const Technologies = () => (
         <br />
         <SectionTitle>Technologies</SectionTitle>
         <SectionText>
-            Here are some of the techonlogies I have worked with either professionally or through
-            school-related projects.
+            Techonlogies that I have worked with either professionally or through school-related
+            projects.
         </SectionText>
         <List>
             <ListItem>
-                <AiOutlineCode size="4rem" />
-                <ListTitle>Languages</ListTitle>
-                <ListParagraph>Python, SQL, Java, JavaScript, HTML5, CSS3, C++</ListParagraph>
+                <picture>
+                    <AiOutlineCode size="4rem" />
+                </picture>
+                <ListContainer>
+                    <ListTitle>Languages</ListTitle>
+                    <ListParagraph>Python, SQL, Java, JavaScript, HTML5, CSS3, C++</ListParagraph>
+                </ListContainer>
             </ListItem>
             <ListItem>
-                <DiReact size="4rem" />
-                <ListTitle>Frameworks</ListTitle>
-                <ListParagraph>
-                    React, Node.js, Express, Spring Boot, MongoDB, PostgreSQL, Mocha.js
-                </ListParagraph>
+                <picture>
+                    <DiReact size="4rem" />
+                </picture>
+                <ListContainer>
+                    <ListTitle>Frameworks</ListTitle>
+                    <ListParagraph>
+                        React, Node.js, Express, Spring Boot, MongoDB, PostgreSQL, Mocha.js
+                    </ListParagraph>
+                </ListContainer>
             </ListItem>
             <ListItem>
-                <AiOutlineTool size="4rem" />
-                <ListTitle>Tools</ListTitle>
-                <ListParagraph>Git, Azure DevOps, Jira, Trello</ListParagraph>
+                <picture>
+                    <AiOutlineTool size="4rem" />
+                </picture>
+                <ListContainer>
+                    <ListTitle>Tools</ListTitle>
+                    <ListParagraph>Git, Azure DevOps, Jira, Trello</ListParagraph>
+                </ListContainer>
             </ListItem>
         </List>
     </Section>

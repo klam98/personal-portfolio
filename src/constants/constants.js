@@ -40,9 +40,18 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-    { year: 2017, text: "Started my journey" },
-    { year: 2018, text: "Worked as a freelance developer" },
-    { year: 2019, text: "Founded JavaScript Mastery" },
-    { year: 2020, text: "Shared my projects with the world" },
-    { year: 2021, text: "Started my own platform" },
+    { year: 2016, text: "TBA" },
+    { year: 2017, text: "TBA" },
+    { year: 2018, text: "TBA" },
+    { year: 2019, text: "TBA" },
+    { year: 2020, text: "TBA" },
+    { year: 2021, text: "TBA" },
+    { year: 2022, text: "TBA" },
+];
+
+export const achievementsData = [
+    { number: 20, text: "Achievement 1" },
+    { number: 1000, text: "Achievement 2" },
+    { number: 1900, text: "Achievement 3" },
+    { number: 5000, text: "Achievement 4" },
 ];
