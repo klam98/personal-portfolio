@@ -1,7 +1,7 @@
 import React from "react";
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
 
-import { SocialIcons } from "../Header/HeaderStyles";
+import { SocialIcons } from "../Navbar/NavbarStyles";
 import {
     CompanyContainer,
     FooterWrapper,
@@ -26,17 +26,20 @@ const Footer = () => {
                     <LinkTitle>Email</LinkTitle>
                     <LinkItem href="mailto:kenricklam98@gmail.com">kenricklam98@gmail.com</LinkItem>
                 </LinkColumn>
-                <SocialIconsContainer>
-                    <SocialContainer>
-                        <SocialIcons href="https://github.com/klam98" target="_blank">
-                            <AiFillGithub size="3rem" />
-                        </SocialIcons>
-                        <SocialIcons href="https://www.linkedin.com/in/klam98" target="_blank">
-                            <AiFillLinkedin size="3rem" />
-                        </SocialIcons>
-                    </SocialContainer>
-                </SocialIconsContainer>
             </LinkList>
+            <SocialIconsContainer>
+                <CompanyContainer>
+                    <Slogan>© Kenrick Lam 2022</Slogan>
+                </CompanyContainer>
+                <SocialContainer>
+                    <SocialIcons href="https://github.com/klam98" target="_blank">
+                        <AiFillGithub size="3rem" />
+                    </SocialIcons>
+                    <SocialIcons href="https://www.linkedin.com/in/klam98" target="_blank">
+                        <AiFillLinkedin size="3rem" />
+                    </SocialIcons>
+                </SocialContainer>
+            </SocialIconsContainer>
         </FooterWrapper>
     );
 };

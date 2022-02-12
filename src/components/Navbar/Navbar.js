@@ -3,12 +3,12 @@ import React from "react";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { DiCssdeck } from "react-icons/di";
 
-import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from "./HeaderStyles";
+import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from "./NavbarStyles";
 
-const Header = () => (
+const Navbar = () => (
     <Container>
         <Div1>
-            <Link href="/">
+            <Link passHref href="/">
                 <a
                     style={{
                         display: "flex",
@@ -23,18 +23,28 @@ const Header = () => (
         </Div1>
         <Div2>
             <li>
-                <Link href="#projects">
-                    <NavLink>Projects</NavLink>
+                <Link passHref href="#employment">
+                    <NavLink>Employment</NavLink>
                 </Link>
             </li>
             <li>
-                <Link href="#tech">
+                <Link passHref href="#education">
+                    <NavLink>Education</NavLink>
+                </Link>
+            </li>
+            <li>
+                <Link passHref href="#tech">
                     <NavLink>Technologies</NavLink>
                 </Link>
             </li>
             <li>
-                <Link href="#about">
-                    <NavLink>About</NavLink>
+                <Link passHref href="#projects">
+                    <NavLink>Projects</NavLink>
+                </Link>
+            </li>
+            <li>
+                <Link passHref href="#about">
+                    <NavLink>About/Contact</NavLink>
                 </Link>
             </li>
         </Div2>
@@ -49,4 +59,4 @@ const Header = () => (
     </Container>
 );
 
-export default Header;
+export default Navbar;

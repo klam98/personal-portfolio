@@ -40,13 +40,34 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-    { year: 2016, text: "TBA" },
-    { year: 2017, text: "TBA" },
-    { year: 2018, text: "TBA" },
-    { year: 2019, text: "TBA" },
-    { year: 2020, text: "TBA" },
-    { year: 2021, text: "TBA" },
-    { year: 2022, text: "TBA" },
+    {
+        year: 2016,
+        text: "I learned how to code for the first time through an Intro to Programming Course in C++.",
+    },
+    {
+        year: 2017,
+        text: "I began to like coding a lot and took further theoretical and programming CS courses like Discrete Math, Data Structures and Algorithms, etc.",
+    },
+    {
+        year: 2018,
+        text: "This was the year I decided to switch majors from Engineering into Computer Science. I also learned more programming languages like Java, Python, and SQL.",
+    },
+    {
+        year: 2019,
+        text: "I got my first taste of full-stack web development: (PostgreSQL, Express, JavaScript, Node.js) and working in a (mock) Agile setting. I really enjoyed it!",
+    },
+    {
+        year: 2020,
+        text: "I got my first internship as a Business Intelligence Developer, where I utilized my database knowledge and analytical skills in the industry.",
+    },
+    {
+        year: 2021,
+        text: "My final year of my undergraduate degree. I took specialization courses in Databases and Data Mining while also working on some personal projects to expand my skillset.",
+    },
+    {
+        year: 2022,
+        text: "I have two internships planned for this year, one as a Web Developer, and the other as a Software Developer. These experiences will pave the path towards my future career.",
+    },
 ];
 
 export const achievementsData = [
