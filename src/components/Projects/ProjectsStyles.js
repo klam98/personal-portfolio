@@ -34,6 +34,7 @@ export const TitleContent = styled.div`
     text-align: center;
     z-index: 20;
     width: 100%;
+    color: #d8bfbf;
 `;
 
 export const HeaderThree = styled.h3`
@@ -49,7 +50,7 @@ export const Hr = styled.hr`
     height: 3px;
     margin: 20px auto;
     border: 0;
-    background: #d0bb57;
+    background: #d8bfbf;
 `;
 
 export const Intro = styled.div`
@@ -83,14 +84,14 @@ export const UtilityList = styled.ul`
 `;
 
 export const ExternalLinks = styled.a`
-    color: #d4c0c0;
+    color: #eee;
     font-size: 1.6rem;
     padding: 1rem 1.5rem;
-    background: #6b3030;
+    background: #5c84d6;
     border-radius: 15px;
     transition: 0.5s;
     &:hover {
-        background: #801414;
+        background: #1f61dd;
     }
 `;
 
@@ -99,6 +100,7 @@ export const TagList = styled.ul`
     justify-content: space-around;
     padding: 2rem;
 `;
+
 export const Tag = styled.li`
     color: #d8bfbf;
     font-size: 1.5rem;

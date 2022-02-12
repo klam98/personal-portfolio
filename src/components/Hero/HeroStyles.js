@@ -17,3 +17,10 @@ export const LeftSection = styled.div`
         margin: 0 auto;
     }
 `;
+
+export const Img = styled.img`
+    width: 40%;
+    object-fit: cover;
+    overflow: hidden;
+    padding-bottom: 1.5rem;
+`;
