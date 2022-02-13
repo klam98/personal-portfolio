@@ -13,7 +13,7 @@ import {
     UtilityList,
     Img,
 } from "./ProjectsStyles";
-import { Section, SectionDivider, SectionTitle } from "../../styles/GlobalComponents";
+import { Section, SectionDivider, SectionTitle, SectionText } from "../../styles/GlobalComponents";
 import { projects } from "../../constants/constants";
 
 const Projects = () => (
@@ -21,6 +21,7 @@ const Projects = () => (
         <SectionDivider />
         <br />
         <SectionTitle>Projects</SectionTitle>
+        <SectionText>My favorite applications that I have worked on and built.</SectionText>
         <GridContainer>
             {projects.map(({ id, image, title, description, tags, source, visit }) => (
                 <BlogCard key={id}>
@@ -39,8 +40,14 @@ const Projects = () => (
                         </TagList>
                     </div>
                     <UtilityList>
-                        <ExternalLinks href={source}>View Source Code</ExternalLinks>
-                        {visit ? <ExternalLinks href={visit}>View Website</ExternalLinks> : null}
+                        <ExternalLinks href={source} target="_blank">
+                            View Source Code
+                        </ExternalLinks>
+                        {visit ? (
+                            <ExternalLinks href={visit} target="_blank">
+                                View Website
+                            </ExternalLinks>
+                        ) : null}
                     </UtilityList>
                 </BlogCard>
             ))}

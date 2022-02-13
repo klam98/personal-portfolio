@@ -8,7 +8,7 @@ import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from "./Navba
 const Navbar = () => (
     <Container>
         <Div1>
-            <Link passHref href="/">
+            <Link passHref href="/#">
                 <a
                     style={{
                         display: "flex",

@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     display: grid;
-    padding: 2rem 2rem 1em;
+    padding: 2rem 2rem 0em;
     grid-template-areas: "div1 div2 div2 div3";
 `;
 

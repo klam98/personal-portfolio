@@ -1,16 +1,16 @@
 import React from "react";
 
-import { Section, SectionText, SectionTitle } from "../../styles/GlobalComponents";
+import { Section, SectionText } from "../../styles/GlobalComponents";
 import Button from "../../styles/GlobalComponents/Button";
-import { LeftSection, Img } from "./HeroStyles";
+import { LeftSection, HeroTitle, Img } from "./HeroStyles";
 const memoji = "/images/5.png";
 
 const Hero = (props) => (
     <Section row nopadding>
         <LeftSection>
-            <SectionTitle main center id="welcome">
+            <HeroTitle main center id="welcome">
                 Welcome to my <br /> Personal Portfolio
-            </SectionTitle>
+            </HeroTitle>
             <div style={{ display: "flex", justifyContent: "center" }}>
                 <Img src={memoji} />
             </div>
