@@ -29,7 +29,9 @@ const Footer = () => {
             </LinkList>
             <SocialIconsContainer>
                 <CompanyContainer>
-                    <Slogan>© Kenrick Lam 2022</Slogan>
+                    <Slogan>
+                        © Copyright 2022 <span style={{ fontStyle: "italic" }}>Kenrick Lam</span>
+                    </Slogan>
                 </CompanyContainer>
                 <SocialContainer>
                     <SocialIcons href="https://github.com/klam98" target="_blank">

@@ -22,16 +22,16 @@ const Navbar = () => (
             </Link>
         </Div1>
         <Div2>
-            {/* <li>
-                <Link passHref href="#employment">
-                    <NavLink>Employment</NavLink>
-                </Link>
-            </li>
             <li>
                 <Link passHref href="#education">
                     <NavLink>Education</NavLink>
                 </Link>
-            </li> */}
+            </li>
+            <li>
+                <Link passHref href="#employment">
+                    <NavLink>Employment</NavLink>
+                </Link>
+            </li>
             <li>
                 <Link passHref href="#tech">
                     <NavLink>Technologies</NavLink>

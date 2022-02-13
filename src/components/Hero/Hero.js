@@ -8,16 +8,16 @@ const memoji = "/images/5.png";
 const Hero = (props) => (
     <Section row nopadding>
         <LeftSection>
-            <SectionTitle main center>
+            <SectionTitle main center id="welcome">
                 Welcome to my <br /> Personal Portfolio
             </SectionTitle>
             <div style={{ display: "flex", justifyContent: "center" }}>
                 <Img src={memoji} />
             </div>
             <SectionText>
-                I am an aspiring Software Developer from Vancouver BC, Canada. I am very eager to
-                grow in both my professional and personal life by improving my skillset and meeting
-                new people.
+                Hello, my name is Kenrick and I am an aspiring Software Developer from Vancouver BC,
+                Canada. I am very eager to grow in both my professional and personal life by
+                improving my skillset and meeting new people.
             </SectionText>
             {/* <Button onClick={() => window.open("https://www.linkedin.com/in/klam98", "_blank")}>
                 Learn More

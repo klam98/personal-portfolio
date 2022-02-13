@@ -3,18 +3,8 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     display: grid;
-    grid-template-rows: 1fr;
-    grid-column-gap: 2rem;
-    padding: 1rem;
-    padding-top: 2rem;
-
-    @media ${(props) => props.theme.breakpoints.sm} {
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
-        grid-template-rows: repeat(2, 60px);
-        grid-column-gap: 0.5rem;
-        grid-row-gap: 0.5rem;
-    }
+    padding: 2rem 2rem 1em;
+    grid-template-areas: "div1 div2 div2 div3";
 `;
 
 export const Span = styled.div`
@@ -22,31 +12,23 @@ export const Span = styled.div`
 `;
 
 export const Div1 = styled.div`
-    grid-area: 1 / 1 / 2 / 2;
+    grid-area: div1;
     display: flex;
     flex-direction: row;
-    align-content: center;
-    @media ${(props) => props.theme.breakpoints.sm} {
-        grid-area: 1 / 1 / 2 / 3;
-    }
 `;
 export const Div2 = styled.div`
-    grid-area: 1 / 2 / 2 / 4;
+    grid-area: div2;
     display: flex;
-    justify-content: space-around;
-    @media ${(props) => props.theme.breakpoints.sm} {
-        grid-area: 2 / 2 / 3 / 5;
+    justify-content: space-evenly;
+    @media ${(props) => props.theme.breakpoints.lg} {
+        display: none;
     }
 `;
 export const Div3 = styled.div`
-    grid-area: 1 / 5 / 2 / 6;
+    grid-area: div3;
     display: flex;
-    justify-content: space-around;
+    justify-content: right;
     align-items: center;
-    @media ${(props) => props.theme.breakpoints.sm} {
-        align-items: center;
-        grid-area: 1 / 4 / 2 / 6;
-    }
 `;
 
 // Navigation Links
