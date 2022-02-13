@@ -31,6 +31,7 @@ const Footer = () => {
                 <CompanyContainer>
                     <Slogan>
                         © Copyright 2022 <span style={{ fontStyle: "italic" }}>Kenrick Lam</span>
+                        <br /> Made with React and Next.js.
                     </Slogan>
                 </CompanyContainer>
                 <SocialContainer>

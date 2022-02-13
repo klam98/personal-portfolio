@@ -64,13 +64,13 @@ export const SectionText = styled.p`
 
     @media ${(props) => props.theme.breakpoints.md} {
         max-width: 670px;
-        font-size: 20px;
+        font-size: 22px;
         line-height: 32px;
         padding-bottom: 24px;
     }
 
     @media ${(props) => props.theme.breakpoints.sm} {
-        font-size: 16px;
+        font-size: 20px;
         line-height: 24px;
         padding-bottom: 16px;
     }

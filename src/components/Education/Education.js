@@ -13,11 +13,11 @@ function Education() {
             <EducationContainer>
                 <EducationText>
                     I graduated with a Bachelor's degree in Computer Science from Simon Fraser
-                    Univeristy on August 2021. As a second-generation Asian-Canadian, I am very
-                    grateful that I had the opportunity to receive formal education, allowing me to
-                    discover my passion for Software Development. I have made many life-long friends
-                    and memories throughout my undergraduate degree and hope to work alongside some
-                    of my peers in the future!
+                    Univeristy (SFU) on August 2021. As a second-generation Asian-Canadian, I am
+                    very grateful that I had the opportunity to receive formal education, allowing
+                    me to discover my passion for Software Development. I have made many life-long
+                    friends and memories throughout my undergraduate degree and hope to work
+                    alongside some of my peers in the future.
                 </EducationText>
                 <Img src={graduated} />
             </EducationContainer>

@@ -21,25 +21,20 @@ export const EducationContainer = styled.div`
 
 export const EducationText = styled.p`
     max-width: 60%;
-    font-size: 24px;
-    line-height: 40px;
-    font-weight: 300;
     padding-bottom: 3.6rem;
     padding-right: 25px;
-    color: rgba(255, 255, 255, 0.5);
+    color: #e4e6e7;
+    font-size: 1.75rem;
+    line-height: 24px;
+    text-align: left;
 
     @media ${(props) => props.theme.breakpoints.md} {
-        max-width: 670px;
-        font-size: 20px;
-        line-height: 32px;
+        max-width: 100%;
         padding-bottom: 24px;
         padding-right: 0px;
     }
 
     @media ${(props) => props.theme.breakpoints.sm} {
-        font-size: 16px;
-        line-height: 24px;
         padding-bottom: 16px;
-        padding-right: 0px;
     }
 `;

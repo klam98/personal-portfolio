@@ -76,3 +76,26 @@ export const achievementsData = [
     { number: 1900, text: "Achievement 3" },
     { number: 5000, text: "Achievement 4" },
 ];
+
+export const employmentData = [
+    {
+        company: "Kids' Shield Services Inc.",
+        jobTitle: "Web Developer Intern",
+        dateStart: "Jan 2022",
+        dateEnd: "Present",
+        description:
+            'A full-stack social media web application, similar to Facebook, where users can create and like posts called "stories". User authentication is implemented using Google OAuth 2.0 and JSON Web Tokens. Other interesting features include: searching, sorting, and commenting on stories.',
+        image: "/images/8.jpg",
+        id: 0,
+    },
+    {
+        company: "Provincial Health Services Authority",
+        jobTitle: "Business Intelligence Developer Intern",
+        dateStart: "Sep 2020",
+        dateEnd: "Dec 2020",
+        description:
+            'A full-stack social media web application, similar to Facebook, where users can create and like posts called "stories". User authentication is implemented using Google OAuth 2.0 and JSON Web Tokens. Other interesting features include: searching, sorting, and commenting on stories.',
+        image: "/images/7.jpg",
+        id: 1,
+    },
+];

@@ -10,7 +10,7 @@ const Technologies = () => (
         <br />
         <SectionTitle>Technologies</SectionTitle>
         <SectionText>
-            Technologies that I have worked with either professionally or throughout school-related
+            Technologies that I have worked with either professionally or through school-related
             assignments and projects.
         </SectionText>
         <List>
@@ -40,7 +40,9 @@ const Technologies = () => (
                 </picture>
                 <ListContainer>
                     <ListTitle>Tools</ListTitle>
-                    <ListParagraph>Git, Azure DevOps, Jira, Trello</ListParagraph>
+                    <ListParagraph>
+                        Git, Azure DevOps, Jira, Trello, JoomlaCMS, cPanel, Figma
+                    </ListParagraph>
                 </ListContainer>
             </ListItem>
         </List>
