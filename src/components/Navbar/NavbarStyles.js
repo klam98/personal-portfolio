@@ -11,7 +11,7 @@ export const Container = styled.div`
 `;
 
 export const Span = styled.div`
-    font-size: 1.8rem;
+    font-size: 2rem;
 `;
 
 export const Div1 = styled.div`
@@ -51,27 +51,24 @@ export const NavLink = styled.a`
     }
 `;
 
-export const DropdownButton = styled.button`
-    cursor: pointer;
+export const SidebarButton = styled.button`
     padding: 0;
     border: 0;
     outline: 0;
     color: white;
+    border-radius: 50px;
+    padding: 8px;
     background-color: rgba(255, 255, 255, 0);
+    transition: 0.3s ease;
+    &:hover {
+        background-color: #212d45;
+        transform: scale(1.2);
+        cursor: pointer;
+    }
 `;
 
-export const DropdownContainer = styled.div`
+export const SidebarContainer = styled.div`
     position: relative;
-`;
-
-export const DropdownItems = styled.div`
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 250px;
-    z-index: 25;
-    background-color: rgba(32, 38, 51, 1);
-    padding-left: 2rem;
 `;
 
 export const NavProductsIcon = styled(IoIosArrowDropdown)`

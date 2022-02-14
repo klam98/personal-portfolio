@@ -10,14 +10,12 @@ import {
     Div3,
     NavLink,
     SocialIcons,
-    DropdownButton,
-    DropdownContainer,
-    DropdownItems,
+    SidebarContainer,
+    SidebarButton,
     Span,
 } from "./NavbarStyles";
 
-const Navbar = () => {
-    const [isDropDown, setIsDropDown] = useState(false);
+const Navbar = ({ toggleSidebar }) => {
     const [changeNavColor, setChangeNavColor] = useState(false);
 
     const changeNavbarColor = () => {
@@ -28,10 +26,6 @@ const Navbar = () => {
         }
     };
 
-    const handleDropDown = () => {
-        setIsDropDown(!isDropDown);
-    };
-
     if (typeof window !== "undefined") {
         window.addEventListener("scroll", changeNavbarColor);
     }
@@ -39,17 +33,17 @@ const Navbar = () => {
     return (
         <Container style={{ backgroundColor: changeNavColor ? "#202633" : "#0F1624" }}>
             <Div1>
-                <DropdownContainer>
-                    <DropdownButton onClick={handleDropDown}>
+                <SidebarContainer>
+                    <SidebarButton onClick={toggleSidebar}>
                         <FaBars size="3rem" />
-                    </DropdownButton>
-                </DropdownContainer>
+                    </SidebarButton>
+                </SidebarContainer>
 
                 <Span
                     style={{
                         display: "flex",
                         color: "white",
-                        marginLeft: "2rem",
+                        marginLeft: "1.5rem",
                     }}
                 >
                     Kenrick Lam
