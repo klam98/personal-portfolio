@@ -43,40 +43,6 @@ const Navbar = () => {
                     <DropdownButton onClick={handleDropDown}>
                         <FaBars size="3rem" />
                     </DropdownButton>
-                    {isDropDown && (
-                        <DropdownItems>
-                            <li>
-                                <Link passHref href="#home">
-                                    <NavLink>Home</NavLink>
-                                </Link>
-                            </li>
-                            <li>
-                                <Link passHref href="#education">
-                                    <NavLink>Education</NavLink>
-                                </Link>
-                            </li>
-                            <li>
-                                <Link passHref href="#employment">
-                                    <NavLink>Employment</NavLink>
-                                </Link>
-                            </li>
-                            <li>
-                                <Link passHref href="#tech">
-                                    <NavLink>Technologies</NavLink>
-                                </Link>
-                            </li>
-                            <li>
-                                <Link passHref href="#projects">
-                                    <NavLink>Projects</NavLink>
-                                </Link>
-                            </li>
-                            <li>
-                                <Link passHref href="#about">
-                                    <NavLink>About/Contact</NavLink>
-                                </Link>
-                            </li>
-                        </DropdownItems>
-                    )}
                 </DropdownContainer>
 
                 <Span
