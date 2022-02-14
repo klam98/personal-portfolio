@@ -79,12 +79,12 @@ export const achievementsData = [
 
 export const employmentData = [
     {
-        company: "Kids' Shield Services Inc.",
+        company: "Kids Shield Services Inc.",
         jobTitle: "Web Developer Intern",
         dateStart: "Jan 2022",
         dateEnd: "Present",
         description:
-            'A full-stack social media web application, similar to Facebook, where users can create and like posts called "stories". User authentication is implemented using Google OAuth 2.0 and JSON Web Tokens. Other interesting features include: searching, sorting, and commenting on stories.',
+            "At Kids Shield Services Inc I was mainly responsible for designing front-end components in Figma and then implementing them on the website using JavaScript and Joomla CMS. For instance, I setup their login/registration pages with user authentication, and also created a landing page for them to improve marketing efforts. I also integrated a MySQL database through cPanel to store important information from submitted forms, like emails for example, to setup a mailing list for customers. Other optimizations I made include reducing page load times and increasing the website's search engine optimization (SEO).",
         image: "/images/8.jpg",
         id: 0,
     },
@@ -94,7 +94,7 @@ export const employmentData = [
         dateStart: "Sep 2020",
         dateEnd: "Dec 2020",
         description:
-            'A full-stack social media web application, similar to Facebook, where users can create and like posts called "stories". User authentication is implemented using Google OAuth 2.0 and JSON Web Tokens. Other interesting features include: searching, sorting, and commenting on stories.',
+            "At Provincial Health (PHSA) I was mainly responsible for creating employee-related data reports using Microsoft's SQL Server and Reporting Services suite to extract data-driven insights to influence business decisions. Throughout my internship, I refactored and optimized several data reports and their associated SQL scripts through query optimization. My biggest achievement was creaing a report that displayed all IT employees' permissions to PHSA's databases. This greatly improved the IT department's workflow when they had to check or remove database permissions from their employees.",
         image: "/images/7.jpg",
         id: 1,
     },

@@ -2,15 +2,15 @@ import styled from "styled-components";
 
 export const LeftSection = styled.div`
     width: 100%;
-    @media ${(props) => props.theme.breakpoints.sm} {
-        width: 80%;
+    @media ${(props) => props.theme.breakpoints.md} {
+        width: 100%;
         display: flex;
         flex-direction: column;
 
         margin: 0 auto;
     }
-    @media ${(props) => props.theme.breakpoints.md} {
-        width: 100%;
+    @media ${(props) => props.theme.breakpoints.sm} {
+        width: 80%;
         display: flex;
         flex-direction: column;
 
@@ -35,7 +35,7 @@ export const HeroTitle = styled.h2`
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 16px;
-    padding: ${(props) => (props.main ? "58px 0 16px" : "0")};
+    padding: ${(props) => (props.main ? "40px 0 16px" : "0")};
 
     @media ${(props) => props.theme.breakpoints.md} {
         font-size: ${(props) => (props.main ? "56px" : "48px")};
@@ -51,7 +51,7 @@ export const HeroTitle = styled.h2`
         font-size: ${(props) => (props.main ? "28px" : "32px")};
         line-height: ${(props) => (props.main ? "32px" : "40px")};
         margin-bottom: 8px;
-        padding: ${(props) => (props.main ? "16px 0 8px" : "0")};
+        padding: ${(props) => (props.main ? "32px 0 8px" : "0")};
         max-width: 100%;
     }
 `;
