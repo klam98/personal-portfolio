@@ -1,3 +1,5 @@
+import Head from "next/head";
+
 import Achievements from "../components/Achievements/Achievements";
 import BgAnimation from "../components/BackgroundAnimation/BackgroundAnimation";
 import Hero from "../components/Hero/Hero";
@@ -12,6 +14,9 @@ import { Section } from "../styles/GlobalComponents";
 const Home = () => {
     return (
         <Layout>
+            <Head>
+                <title>Kenrick Lam Portfolio</title>
+            </Head>
             <Section grid id="home">
                 <Hero />
                 <BgAnimation />

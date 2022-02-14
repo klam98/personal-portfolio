@@ -35,7 +35,7 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
                 </Icon>
                 <SidebarMenu>
                     <Span>Kenrick</Span>
-                    <Link passHref href="#home">
+                    <Link href="#home" passHref>
                         <SidebarLink onClick={toggleSidebar}>
                             Home
                             <LinkIcon>
@@ -43,7 +43,7 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
                             </LinkIcon>
                         </SidebarLink>
                     </Link>
-                    <Link passHref href="#education">
+                    <Link href="#education" passHref>
                         <SidebarLink onClick={toggleSidebar}>
                             Education
                             <LinkIcon>
@@ -51,7 +51,7 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
                             </LinkIcon>
                         </SidebarLink>
                     </Link>
-                    <Link passHref href="#employment">
+                    <Link href="#employment" passHref>
                         <SidebarLink onClick={toggleSidebar}>
                             Employment
                             <LinkIcon>
@@ -59,7 +59,7 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
                             </LinkIcon>
                         </SidebarLink>
                     </Link>
-                    <Link passHref href="#tech">
+                    <Link href="#tech" passHref>
                         <SidebarLink onClick={toggleSidebar}>
                             Technologies
                             <LinkIcon>
@@ -67,7 +67,7 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
                             </LinkIcon>
                         </SidebarLink>
                     </Link>
-                    <Link passHref href="#projects">
+                    <Link href="#projects" passHref>
                         <SidebarLink onClick={toggleSidebar}>
                             Projects
                             <LinkIcon>
@@ -75,7 +75,7 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
                             </LinkIcon>
                         </SidebarLink>
                     </Link>
-                    <Link passHref href="#about">
+                    <Link href="#about" passHref>
                         <SidebarLink onClick={toggleSidebar}>
                             About/Contact
                             <LinkIcon>

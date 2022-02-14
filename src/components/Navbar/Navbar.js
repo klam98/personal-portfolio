@@ -51,32 +51,32 @@ const Navbar = ({ toggleSidebar }) => {
             </Div1>
             <Div2>
                 <li>
-                    <Link passHref href="#home">
+                    <Link href="#home" passHref>
                         <NavLink>Home</NavLink>
                     </Link>
                 </li>
                 <li>
-                    <Link passHref href="#education">
+                    <Link href="#education" passHref>
                         <NavLink>Education</NavLink>
                     </Link>
                 </li>
                 <li>
-                    <Link passHref href="#employment">
+                    <Link href="#employment" passHref>
                         <NavLink>Employment</NavLink>
                     </Link>
                 </li>
                 <li>
-                    <Link passHref href="#tech">
+                    <Link href="#tech" passHref>
                         <NavLink>Technologies</NavLink>
                     </Link>
                 </li>
                 <li>
-                    <Link passHref href="#projects">
+                    <Link href="#projects" passHref>
                         <NavLink>Projects</NavLink>
                     </Link>
                 </li>
                 <li>
-                    <Link passHref href="#about">
+                    <Link href="#about" passHref>
                         <NavLink>About/Contact</NavLink>
                     </Link>
                 </li>
