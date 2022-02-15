@@ -3,7 +3,7 @@ import React from "react";
 import { Section, SectionText } from "../../styles/GlobalComponents";
 import Button from "../../styles/GlobalComponents/Button";
 import { LeftSection, HeroTitle, Img } from "./HeroStyles";
-const memoji = "/images/5.png";
+const memoji = "images/5.png";
 
 const Hero = (props) => (
     <Section row nopadding>
