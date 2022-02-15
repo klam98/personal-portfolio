@@ -23,7 +23,7 @@ export const EducationText = styled.p`
     max-width: 60%;
     padding-bottom: 3.6rem;
     padding-right: 25px;
-    color: #e4e6e7;
+    color: #cccccc;
     font-size: 1.75rem;
     line-height: 24px;
     text-align: left;

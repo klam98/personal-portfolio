@@ -22,7 +22,7 @@ export const projects = [
     {
         title: "Course Planner",
         description:
-            "A Java REST-API that parses my university's course data from a CSV file and stores it on the server-side. Students can modify their course schedule through CRUD methods on the client-side.",
+            "A Java REST API that parses my university's course data from a CSV file and stores it on the server-side. Students can modify their course schedule through CRUD methods on the client-side.",
         image: "images/3.png",
         tags: ["Java", "Spring Boot", "JavaScript"],
         source: "https://github.com/klam98/SFU-Course-Planner",
@@ -31,7 +31,7 @@ export const projects = [
     {
         title: "COVID-19 Data Mining",
         description:
-            "A Python script that uses data mining techniques on a 2020 global COVID-19 dataset. I trained and tuned machine learning models for classification like XGBoost and Random Forests. This led to an 80% prediction accuracy on 300+ thousand patients' COVID-19 status on unseen data.",
+            "A Python script that uses data mining techniques on a 2020 global COVID-19 dataset. I trained and tuned machine learning models like XGBoost and Random Forests for classification. This led to an 80% prediction accuracy on 300+ thousand patients' COVID-19 status on unseen data.",
         image: "images/4.png",
         tags: ["Python", "Jupyter Notebook"],
         source: "https://github.com/klam98/COVID-19-Data-Mining",

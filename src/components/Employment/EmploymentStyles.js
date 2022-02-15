@@ -38,7 +38,7 @@ export const RowInfo = styled.div`
     flex-direction: column;
     grid: info;
     width: 100%;
-    color: #e4e6e7;
+    color: #cccccc;
     font-size: 1.75rem;
     line-height: 24px;
 
@@ -64,7 +64,7 @@ export const ItalicsInfo = styled.p`
 export const JobInfo = styled.p`
     width: 100%;
     padding: 20px 0px;
-    color: #e4e6e7;
+    color: #cccccc;
     font-size: 1.75rem;
     line-height: 24px;
     text-align: left;
