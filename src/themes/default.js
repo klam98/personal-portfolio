@@ -1,7 +1,7 @@
 export default {
     // Temp fonts
     fonts: {
-        title: "Space Grotesk, sans-serif",
+        title: "Arial",
         main: "Arial",
     },
     // Colors for layout

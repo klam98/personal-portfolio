@@ -25,14 +25,15 @@ export const Section = styled.section`
 `;
 
 export const SectionTitle = styled.h2`
-    font-weight: 800;
+    font-weight: 600;
+    color: #7aa9f9;
     font-size: ${(props) => (props.main ? "65px" : "56px")};
     line-height: ${(props) => (props.main ? "72px" : "56px")};
     width: max-content;
     max-width: 100%;
     background: linear-gradient(121.57deg, #ffffff 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    /* -webkit-text-fill-color: transparent; */
     margin-bottom: 16px;
     padding: ${(props) => (props.main ? "58px 0 16px" : "0")};
 
@@ -60,7 +61,7 @@ export const SectionText = styled.p`
     line-height: 40px;
     font-weight: 300;
     padding-bottom: 3.6rem;
-    color: rgba(255, 255, 255, 0.5);
+    color: #eeeeee;
 
     @media ${(props) => props.theme.breakpoints.md} {
         max-width: 670px;

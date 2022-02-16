@@ -46,7 +46,9 @@ const Navbar = ({ toggleSidebar }) => {
                         marginLeft: "1.5rem",
                     }}
                 >
-                    Kenrick Lam
+                    <Link href="/" passHref>
+                        <NavLink>Kenrick Lam</NavLink>
+                    </Link>
                 </Span>
             </Div1>
             <Div2>
@@ -67,7 +69,7 @@ const Navbar = ({ toggleSidebar }) => {
                 </li>
                 <li>
                     <Link href="#tech" passHref>
-                        <NavLink>Technologies</NavLink>
+                        <NavLink>Skills</NavLink>
                     </Link>
                 </li>
                 <li>

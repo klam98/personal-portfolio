@@ -8,10 +8,10 @@ const Technologies = () => (
     <Section id="tech">
         <SectionDivider />
         <br />
-        <SectionTitle>Technologies</SectionTitle>
+        <SectionTitle>Skills</SectionTitle>
         <SectionText>
-            Technologies that I have worked with either professionally or through school-related
-            assignments and projects.
+            Languages, frameworks, and tools that I have worked with either professionally or
+            through school-related assignments and projects.
         </SectionText>
         <List>
             <ListItem>

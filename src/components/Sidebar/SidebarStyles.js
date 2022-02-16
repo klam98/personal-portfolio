@@ -67,10 +67,10 @@ export const SidebarLink = styled.a`
     justify-content: center;
     font-size: 1.75rem;
     transition: all 0.2s ease-in-out;
-    color: rgba(255, 255, 255, 0.75);
+    color: #eeeeee;
 
     &:hover {
-        background-color: #276aad;
+        background-color: #7aa9f9;
         cursor: pointer;
     }
 `;
@@ -80,4 +80,5 @@ export const Span = styled.div`
     /* font-weight: bold; */
     align-self: center;
     justify-self: center;
+    color: rgba(255, 255, 255, 0.75);
 `;

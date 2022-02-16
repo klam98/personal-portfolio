@@ -3,7 +3,7 @@ export const projects = [
         title: "Story Time",
         description:
             'A full-stack social media web application, similar to Facebook, where users can create and like posts called "stories". User authentication is implemented using Google OAuth 2.0 and JSON Web Tokens. Other interesting features include: searching, sorting, and commenting on stories.',
-        image: "images/1.png",
+        image: "images/1.jpg",
         tags: ["MongoDB", "Express", "React", "Node.js"],
         source: "https://github.com/klam98/story-time",
         visit: "https://story-time-web.netlify.app",
@@ -32,7 +32,7 @@ export const projects = [
         title: "COVID-19 Data Mining",
         description:
             "A Python script that uses data mining techniques on a 2020 global COVID-19 dataset. I trained and tuned machine learning models like XGBoost and Random Forests for classification. This led to an 80% prediction accuracy on 300+ thousand patients' COVID-19 status on unseen data.",
-        image: "images/4.png",
+        image: "images/4.jpg",
         tags: ["Python", "Jupyter Notebook"],
         source: "https://github.com/klam98/COVID-19-Data-Mining",
         id: 3,
@@ -84,12 +84,12 @@ export const employmentData = [
         dateStart: "Jan 2022",
         dateEnd: "Present",
         description:
-            "At Kids Shield Services Inc I was mainly responsible for designing front-end components in Figma and then implementing them on the website using JavaScript and Joomla CMS. For instance, I setup their login/registration pages with user authentication, and also created a landing page for them to improve marketing efforts. I also integrated a MySQL database through cPanel to store important information from submitted forms, like emails for example, to setup a mailing list for customers. Other optimizations I made include reducing page load times and increasing the website's search engine optimization (SEO).",
+            "At Kids Shield Services Inc I was mainly responsible for designing front-end components in Figma and then implementing them on the Kids Shield website using JavaScript and Joomla CMS. For instance, I setup their login/registration pages with user authentication, and also created a landing page for them to improve marketing efforts. I also integrated a MySQL database through cPanel to store important information from submitted forms, like emails for example, to setup a mailing list for customers. Other optimizations I made include reducing page load times and increasing the website's search engine optimization (SEO).",
         image: "images/8.jpg",
         id: 0,
     },
     {
-        company: "Provincial Health Services Authority",
+        company: "Provincial Health",
         jobTitle: "Business Intelligence Developer Intern",
         dateStart: "Sep 2020",
         dateEnd: "Dec 2020",
