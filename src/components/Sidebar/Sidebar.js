@@ -61,7 +61,7 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
                     </Link>
                     <Link href="#tech" passHref>
                         <SidebarLink onClick={toggleSidebar}>
-                            Skils
+                            Skills
                             <LinkIcon>
                                 <FaLaptop />
                             </LinkIcon>
