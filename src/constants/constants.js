@@ -41,32 +41,28 @@ export const projects = [
 
 export const TimeLineData = [
     {
-        year: 2016,
-        text: "I learned how to code for the first time through an Intro to Programming Course in C++.",
+        year: "2016",
+        text: "Where it all started: I took my first Intro to Programming course and loved it. I wanted to learn more about different programming languages and concepts.",
     },
     {
-        year: 2017,
-        text: "I began to like coding a lot and took further theoretical and programming CS courses like Discrete Math, Data Structures and Algorithms, etc.",
+        year: "2018",
+        text: "After taking numerous computer science courses on theory and programming, I decided to switch majors from Engineering into Computer Science.",
     },
     {
-        year: 2018,
-        text: "This was the year I decided to switch majors from Engineering into Computer Science. I also learned more programming languages like Java, Python, and SQL.",
+        year: "2019",
+        text: "I took many project-based programming courses to strengthen my coding and teamwork skills, one of which included a full-stack web project following Agile.",
     },
     {
-        year: 2019,
-        text: "I got my first taste of full-stack web development: (PostgreSQL, Express, JavaScript, Node.js) and working in a (mock) Agile setting. I really enjoyed it!",
+        year: "2020",
+        text: "I landed my first internship as a Business Intelligence Developer where I learned how to manage databases and use my analytical skills in the healthcare industry.",
     },
     {
-        year: 2020,
-        text: "I got my first internship as a Business Intelligence Developer, where I utilized my database knowledge and analytical skills in the industry.",
+        year: "2022",
+        text: "I will be gaining practical experience in web development and software development through two internships this year. I am excited to learn many new things and meet new people.",
     },
     {
-        year: 2021,
-        text: "My final year of my undergraduate degree. I took specialization courses in Databases and Data Mining while also working on some personal projects to expand my skillset.",
-    },
-    {
-        year: 2022,
-        text: "I have two internships planned for this year, one as a Web Developer, and the other as a Software Developer. These experiences will pave the path towards my future career.",
+        year: "2023+",
+        text: "I plan to continually grow in both my career and personal life through building fun applications, picking up new hobbies, traveling, and being passionate about working with software.",
     },
 ];
 

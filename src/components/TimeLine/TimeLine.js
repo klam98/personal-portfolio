@@ -64,7 +64,7 @@ const Timeline = () => {
             <SectionDivider />
             <br />
             <SectionTitle>About Me</SectionTitle>
-            <SectionText>My coding journey.</SectionText>
+            <SectionText>"Learning is a journey that never ends".</SectionText>
             <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
                 <>
                     {TimeLineData.map((item, index) => (

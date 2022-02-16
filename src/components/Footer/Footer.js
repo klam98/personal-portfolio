@@ -1,6 +1,6 @@
 import React from "react";
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
-
+import { SectionDivider, SectionTitle, SectionText } from "../../styles/GlobalComponents";
 import { SocialIcons } from "../Navbar/NavbarStyles";
 import {
     CompanyContainer,
@@ -17,6 +17,10 @@ import {
 const Footer = () => {
     return (
         <FooterWrapper>
+            <SectionDivider />
+            <br />
+            <SectionTitle>Contact</SectionTitle>
+            <SectionText>Send me an email if you would like to chat. :)</SectionText>
             <LinkList>
                 <LinkColumn>
                     <LinkTitle>Call</LinkTitle>
