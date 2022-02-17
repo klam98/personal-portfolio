@@ -25,9 +25,13 @@ export const DarkOverlay = styled.aside`
     display: grid;
     top: 0;
     left: 0;
-    transition: all 0.2s ease;
+    transition: opacity 0.2s ease-out;
     opacity: ${({ isOpen }) => (isOpen ? "100%" : "0")};
     left: ${({ isOpen }) => (isOpen ? "250px" : "-100%")};
+
+    @media ${(props) => props.theme.breakpoints.sm} {
+        transition: opacity 0.15s ease-out;
+    }
 `;
 
 export const SidebarContainerActive = styled.aside`

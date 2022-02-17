@@ -80,7 +80,7 @@ export const employmentData = [
         dateStart: "Jan 2022",
         dateEnd: "Present",
         description:
-            "At Kids Shield Services Inc I was mainly responsible for designing front-end components in Figma and then implementing them on the Kids Shield website using JavaScript and Joomla CMS. For instance, I setup their login/registration pages with user authentication, and also created a landing page for them to improve marketing efforts. I also integrated a MySQL database through cPanel to store important information from submitted forms, like emails for example, to setup a mailing list for customers. Other optimizations I made include reducing page load times and increasing the website's search engine optimization (SEO).",
+            "At Kids Shield Services Inc I was mainly responsible for designing and implementing features on the Kids Shield website using JavaScript and Joomla CMS. For instance, I setup their login/registration pages with user authentication, and also created a landing page for them to improve marketing efforts. I also integrated a MySQL database through cPanel to store important information from submitted forms, like emails for example, to setup a mailing list for customers. Other optimizations I made include reducing page load times and increasing the website's search engine optimization (SEO).",
         image: "images/8.jpg",
         id: 0,
     },

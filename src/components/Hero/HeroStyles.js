@@ -56,3 +56,23 @@ export const HeroTitle = styled.h2`
         max-width: 100%;
     }
 `;
+
+export const HeroText = styled.p`
+    max-width: 800px;
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 300;
+    padding: 1rem 0 3rem;
+    color: #eeeeee;
+
+    @media ${(props) => props.theme.breakpoints.md} {
+        max-width: 670px;
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    @media ${(props) => props.theme.breakpoints.sm} {
+        font-size: 20px;
+        line-height: 24px;
+    }
+`;
