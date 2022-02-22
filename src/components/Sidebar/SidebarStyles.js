@@ -41,8 +41,8 @@ export const SidebarContainerActive = styled.aside`
 
 export const Icon = styled.div`
     position: absolute;
-    top: 1.2rem;
-    right: 1.5rem;
+    top: 1.5rem;
+    left: 2.75rem;
     font-size: 3rem;
     transition: 0.3s ease;
     color: white;

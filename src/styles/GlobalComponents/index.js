@@ -207,7 +207,7 @@ export const ButtonBack = styled.div`
 export const ButtonFront = styled.button`
     border: none;
     border-radius: 50px;
-    color: #ddd;
+    color: #eee;
     display: flex;
     position: absolute;
     top: 0;
