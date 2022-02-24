@@ -84,10 +84,14 @@ const Navbar = ({ toggleSidebar }) => {
                 </li>
             </Div2>
             <Div3>
-                <SocialIcons href="https://github.com/klam98" target="_blank">
+                <SocialIcons href="https://github.com/klam98" title="GitHub" target="_blank">
                     <AiFillGithub size="3rem" />
                 </SocialIcons>
-                <SocialIcons href="https://www.linkedin.com/in/klam98" target="_blank">
+                <SocialIcons
+                    href="https://www.linkedin.com/in/klam98"
+                    title="LinkedIn"
+                    target="_blank"
+                >
                     <AiFillLinkedin size="3rem" />
                 </SocialIcons>
             </Div3>

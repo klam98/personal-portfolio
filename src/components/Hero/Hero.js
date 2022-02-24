@@ -12,7 +12,7 @@ const Hero = (props) => (
                 Welcome to my <br /> Personal Portfolio
             </HeroTitle>
             <div style={{ display: "flex", justifyContent: "center" }}>
-                <Img src={memoji} />
+                <Img src={memoji} alt="apple emoji" />
             </div>
             <HeroText>
                 Hello, my name is Kenrick and I am an aspiring Software Developer from Vancouver BC,

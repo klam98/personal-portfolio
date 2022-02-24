@@ -29,7 +29,12 @@ const Footer = () => {
                 </LinkColumn>
                 <LinkColumn>
                     <LinkTitle>Email</LinkTitle>
-                    <LinkItem href="mailto:kenricklam98@gmail.com">kenricklam98@gmail.com</LinkItem>
+                    <LinkItem
+                        href="mailto:kenricklam98@gmail.com"
+                        title="mailto:kenricklam98@gmail.com"
+                    >
+                        kenricklam98@gmail.com
+                    </LinkItem>
                 </LinkColumn>
             </LinkList>
             <SocialIconsContainer>
@@ -40,10 +45,14 @@ const Footer = () => {
                     </Slogan>
                 </CompanyContainer>
                 <SocialContainer>
-                    <SocialIcons href="https://github.com/klam98" target="_blank">
+                    <SocialIcons href="https://github.com/klam98" title="GitHub" target="_blank">
                         <AiFillGithub size="3rem" />
                     </SocialIcons>
-                    <SocialIcons href="https://www.linkedin.com/in/klam98" target="_blank">
+                    <SocialIcons
+                        href="https://www.linkedin.com/in/klam98"
+                        title="LinkedIn"
+                        target="_blank"
+                    >
                         <AiFillLinkedin size="3rem" />
                     </SocialIcons>
                 </SocialContainer>

@@ -17,7 +17,7 @@ function Employment() {
             {employmentData.map(
                 ({ id, company, jobTitle, dateStart, dateEnd, description, image }) => (
                     <RowContainer key={id}>
-                        <Img src={image} />
+                        <Img src={image} alt="company" />
                         <RowInfo>
                             <HeaderThree title>{company}</HeaderThree>
                             <div style={{ display: "flex", justifyContent: "space-between" }}>
