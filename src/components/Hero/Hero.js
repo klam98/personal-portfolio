@@ -1,12 +1,11 @@
 import React from "react";
 
-import { Section } from "../../styles/GlobalComponents";
 import Button from "../../styles/GlobalComponents/Button";
-import { LeftSection, HeroTitle, HeroText, Img } from "./HeroStyles";
+import { HeroSection, LeftSection, HeroTitle, HeroText, Img } from "./HeroStyles";
 const memoji = "images/5.png";
 
 const Hero = (props) => (
-    <Section row nopadding>
+    <HeroSection row nopadding>
         <LeftSection>
             <HeroTitle main center id="welcome">
                 Welcome to my <br /> Personal Portfolio
@@ -28,7 +27,7 @@ const Hero = (props) => (
                 <Button type="submit">View My Resume</Button>
             </form>
         </LeftSection>
-    </Section>
+    </HeroSection>
 );
 
 export default Hero;

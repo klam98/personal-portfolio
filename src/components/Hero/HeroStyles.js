@@ -1,5 +1,28 @@
 import styled from "styled-components";
 
+export const HeroSection = styled.section`
+    display: ${(props) => (props.grid ? "grid" : "flex")};
+    flex-direction: ${(props) => (props.row ? "row" : "column")};
+    padding: ${(props) => (props.nopadding ? "0" : "48px 48px 0")};
+    margin: 0 auto;
+    max-width: 1040px;
+    box-sizing: content-box;
+    position: relative;
+    overflow: hidden;
+    grid-template-columns: 1fr 1fr;
+
+    @media ${(props) => props.theme.breakpoints.md} {
+        padding: 12px 48px 0;
+        flex-direction: column;
+    }
+
+    @media ${(props) => props.theme.breakpoints.sm} {
+        padding: 12px 0 0;
+        width: calc(100vw - 32px);
+        flex-direction: column;
+    }
+`;
+
 export const LeftSection = styled.div`
     width: 100%;
     @media ${(props) => props.theme.breakpoints.md} {
@@ -36,13 +59,13 @@ export const HeroTitle = styled.h2`
     -webkit-background-clip: text;
     /* -webkit-text-fill-color: transparent; */
     margin-bottom: 16px;
-    padding: ${(props) => (props.main ? "40px 0 16px" : "0")};
+    padding: ${(props) => (props.main ? "32px 0 16px" : "0")};
 
     @media ${(props) => props.theme.breakpoints.md} {
         font-size: ${(props) => (props.main ? "56px" : "48px")};
         line-height: ${(props) => (props.main ? "56px" : "48px")};
         margin-bottom: 12px;
-        padding: ${(props) => (props.main ? "40px 0 12px" : "0")};
+        padding: ${(props) => (props.main ? "16px 0 12px" : "0")};
         align-self: center;
     }
 
@@ -52,7 +75,7 @@ export const HeroTitle = styled.h2`
         font-size: ${(props) => (props.main ? "28px" : "32px")};
         line-height: ${(props) => (props.main ? "32px" : "40px")};
         margin-bottom: 8px;
-        padding: ${(props) => (props.main ? "32px 0 8px" : "0")};
+        padding: ${(props) => (props.main ? "8px 0 8px" : "0")};
         max-width: 100%;
     }
 `;
@@ -62,7 +85,7 @@ export const HeroText = styled.p`
     font-size: 24px;
     line-height: 40px;
     font-weight: 300;
-    padding: 1rem 0 3rem;
+    padding: 0.5rem 0 3rem;
     color: #eeeeee;
 
     @media ${(props) => props.theme.breakpoints.md} {
