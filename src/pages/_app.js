@@ -12,7 +12,7 @@ export default function App({ Component, pageProps }) {
                 <meta name="author" content="Kenrick Lam" />
                 <meta
                     name="description"
-                    content="Hello, my name is Kenrick and I am a Software Developer from Vancouver BC, Canada. This is my personal website to showcase my experience, projects, and more!"
+                    content="Kenrick Lam is a Software Developer from Vancouver, Canada. Click here to learn about his work experience, projects, skills, and more."
                 />
                 <meta
                     name="keywords"
