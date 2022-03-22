@@ -3,7 +3,7 @@ export const projects = [
         title: "Story Time",
         description:
             'A full-stack social media web application, similar to Facebook, where users can create and like posts called "stories". User authentication is implemented using Google OAuth 2.0 and JSON Web Tokens. Other interesting features include: searching, sorting, and commenting on stories.',
-        image: "images/1.jpg",
+        image: "images/story-time.jpg",
         tags: ["MongoDB", "Express", "React", "Node.js"],
         source: "https://github.com/klam98/story-time",
         visit: "https://story-time-web.netlify.app",
@@ -13,7 +13,7 @@ export const projects = [
         title: "Restaurant Finder",
         description:
             "A full-stack web application where students can find and review restaurants on my university's campus. Interesting features include: Twitter API on the homepage to fetch relevant restaurant tweets and Google Maps API for navigation instructions.",
-        image: "images/2.png",
+        image: "images/sfu-restaurant-finder.png",
         tags: ["PostgreSQL", "Express", "JavaScript", "Node.js"],
         source: "https://github.com/klam98/SFU-Restaurant-Finder",
         visit: "https://sfu-restaurant-finder.herokuapp.com",
@@ -23,7 +23,7 @@ export const projects = [
         title: "Course Planner",
         description:
             "A Java REST API that parses my university's course data from a CSV file and stores it on the server-side. Students can modify their course schedule through CRUD methods on the client-side.",
-        image: "images/3.png",
+        image: "images/sfu-course-planner.png",
         tags: ["Java", "Spring Boot", "JavaScript"],
         source: "https://github.com/klam98/SFU-Course-Planner",
         id: 2,
@@ -32,7 +32,7 @@ export const projects = [
         title: "COVID-19 Data Mining",
         description:
             "A Python script that uses data mining techniques on a 2020 global COVID-19 dataset. I trained and tuned machine learning models like XGBoost and Random Forests for classification. This led to an 80% prediction accuracy on 300+ thousand patients' COVID-19 status on unseen data.",
-        image: "images/4.jpg",
+        image: "images/covid19-data-mining.jpg",
         tags: ["Python", "Jupyter Notebook"],
         source: "https://github.com/klam98/COVID-19-Data-Mining",
         id: 3,
@@ -81,7 +81,7 @@ export const employmentData = [
         dateEnd: "Present",
         description:
             "At Kids Shield Services Inc I was mainly responsible for designing and implementing features on the Kids Shield website using JavaScript and Joomla CMS. For instance, I setup their login/registration pages with user authentication, and also created a landing page for them to improve marketing efforts. I also integrated a MySQL database through cPanel to store important information from submitted forms, like emails for example, to setup a mailing list for customers. Other optimizations I made include reducing page load times and increasing the website's search engine optimization (SEO).",
-        image: "images/8.jpg",
+        image: "images/kids-shield-logo.jpg",
         id: 0,
     },
     {
@@ -91,7 +91,7 @@ export const employmentData = [
         dateEnd: "Dec 2020",
         description:
             "At Provincial Health (PHSA) I was mainly responsible for creating employee-related data reports using Microsoft's SQL Server and Reporting Services suite to extract data-driven insights to influence business decisions. Throughout my internship, I refactored and optimized several data reports and their associated SQL scripts through query optimization. My biggest achievement was creaing a report that displayed all IT employees' permissions to PHSA's databases. This greatly improved the IT department's workflow when they had to check or remove database permissions from their employees.",
-        image: "images/7.jpg",
+        image: "images/phsa-logo.jpg",
         id: 1,
     },
 ];

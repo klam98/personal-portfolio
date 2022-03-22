@@ -2,7 +2,7 @@ import React from "react";
 
 import Button from "../../styles/GlobalComponents/Button";
 import { HeroSection, LeftSection, HeroTitle, HeroText, Img } from "./HeroStyles";
-const memoji = "images/5.png";
+const memoji = "images/kenrick-memoji.png";
 
 const Hero = (props) => (
     <HeroSection row nopadding>

@@ -18,7 +18,7 @@ export default function App({ Component, pageProps }) {
                     name="keywords"
                     content="kenrick lam, kenrick, personal portfolio, software development, web development"
                 />
-                <meta property="og:image" content="/images/5.png" />
+                <meta property="og:image" content="/images/kenrick-memoji.png" />
 
                 <link rel="icon" type="image/x-icon" href="/favicon.ico" />
                 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />

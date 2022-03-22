@@ -2,7 +2,7 @@ import React from "react";
 
 import { Section, SectionDivider, SectionTitle } from "../../styles/GlobalComponents";
 import { EducationContainer, EducationText, Img } from "../Education/EducationStyles";
-const graduated = "images/6.jpg";
+const graduated = "images/kenrick-sfu-grad.jpg";
 
 function Education() {
     return (
