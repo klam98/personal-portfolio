@@ -8,15 +8,15 @@ const Hero = (props) => (
     <HeroSection row nopadding>
         <LeftSection>
             <HeroTitle main center id="welcome">
-                Welcome to my <br /> Personal Portfolio
+                Kenrick Lam <br /> Personal Portfolio
             </HeroTitle>
             <div style={{ display: "flex", justifyContent: "center" }}>
                 <Img src={memoji} alt="apple emoji" />
             </div>
             <HeroText>
-                Hello, my name is Kenrick and I am an aspiring Software Developer from Vancouver BC,
-                Canada. I am very eager to grow in both my professional and personal life by
-                improving my skillset and meeting new people.
+                Greetings and welcome to my website. My name is Kenrick and I am a Software
+                Developer from Vancouver BC, Canada. I am very eager to grow in both my professional
+                and personal life by improving my skillset and meeting new people.
             </HeroText>
             <form
                 method="get"

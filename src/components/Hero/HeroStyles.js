@@ -48,7 +48,7 @@ export const Img = styled.img`
     padding-bottom: 1.5rem;
 `;
 
-export const HeroTitle = styled.h2`
+export const HeroTitle = styled.h1`
     font-weight: 600;
     font-size: ${(props) => (props.main ? "65px" : "56px")};
     line-height: ${(props) => (props.main ? "72px" : "56px")};
@@ -58,6 +58,7 @@ export const HeroTitle = styled.h2`
     background: linear-gradient(121.57deg, #ffffff 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
     -webkit-background-clip: text;
     /* -webkit-text-fill-color: transparent; */
+    margin-top: 0;
     margin-bottom: 16px;
     padding: ${(props) => (props.main ? "32px 0 16px" : "0")};
 
