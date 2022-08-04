@@ -75,9 +75,9 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
                             </LinkIcon>
                         </SidebarLink>
                     </Link>
-                    <Link href="#about" passHref>
+                    <Link href="#contact" passHref>
                         <SidebarLink onClick={toggleSidebar}>
-                            About/Contact
+                            Contact
                             <LinkIcon>
                                 <FaUser />
                             </LinkIcon>

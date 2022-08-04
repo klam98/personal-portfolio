@@ -16,7 +16,7 @@ import {
 
 const Footer = () => {
     return (
-        <FooterWrapper>
+        <FooterWrapper id="contact">
             <SectionDivider />
             <br />
             <SectionTitle>Contact</SectionTitle>

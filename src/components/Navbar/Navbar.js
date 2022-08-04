@@ -78,8 +78,8 @@ const Navbar = ({ toggleSidebar }) => {
                     </Link>
                 </li>
                 <li>
-                    <Link href="#about" passHref>
-                        <NavLink>About/Contact</NavLink>
+                    <Link href="#contact" passHref>
+                        <NavLink>Contact</NavLink>
                     </Link>
                 </li>
             </Div2>
