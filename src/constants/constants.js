@@ -75,23 +75,40 @@ export const achievementsData = [
 
 export const employmentData = [
     {
+        company: "Sophos",
+        jobTitle: "Software Developer Intern",
+        dateStart: "May 2022",
+        dateEnd: "Aug. 2022",
+        description:
+            "At Sophos I was a member of the Network Security Group (NSG) working on developing features and bug fixes to Sophos Firewall v19 in C and automating manual test cases for existing Sophos Firewall\
+            features like TLS inspection and web proxy filtering in Perl. I also had a direct impact on customers of our product by populating a decryption exclusion list with known conflicting domains,\
+            thus allowing customers to access those domains without issues. Throughout my internship, I learned how to write effective unit tests and communicate issues during code review, leading to high-quality\
+            pull requests that were integrated into the product.",
+        image: "images/sophos-logo.jpg",
+        id: 0,
+    },
+    {
         company: "Kids Shield Services Inc.",
         jobTitle: "Web Developer Intern",
-        dateStart: "Jan 2022",
-        dateEnd: "Present",
+        dateStart: "Jan. 2022",
+        dateEnd: "Apr. 2022",
         description:
-            "At Kids Shield Services Inc I was mainly responsible for designing and implementing features on the Kids Shield website using JavaScript and Joomla CMS. For instance, I setup their login/registration pages with user authentication, and also created a landing page for them to improve marketing efforts. I also integrated a MySQL database through cPanel to store important information from submitted forms, like emails for example, to setup a mailing list for customers. Other optimizations I made include reducing page load times and increasing the website's search engine optimization (SEO).",
+            "At Kids Shield Services Inc I was mainly responsible for designing and implementing features on the Kids Shield website using JavaScript and Joomla CMS. For instance, I set up their login/registration\
+            pages with user authentication, and also created a landing page for them to improve marketing efforts. I also integrated a MySQL database through cPanel to store important information from submitted\
+            forms, like emails, for example, to set up a mailing list for customers. Other optimizations I made include reducing page load times and increasing the website's search engine optimization (SEO).",
         image: "images/kids-shield-logo.jpg",
-        id: 0,
+        id: 1,
     },
     {
         company: "Provincial Health",
         jobTitle: "Business Intelligence Developer Intern",
-        dateStart: "Sep 2020",
-        dateEnd: "Dec 2020",
+        dateStart: "Sep. 2020",
+        dateEnd: "Dec. 2020",
         description:
-            "At Provincial Health (PHSA) I was mainly responsible for creating employee-related data reports using Microsoft's SQL Server and Reporting Services suite to extract data-driven insights to influence business decisions. Throughout my internship, I refactored and optimized several data reports and their associated SQL scripts through query optimization. My biggest achievement was creaing a report that displayed all IT employees' permissions to PHSA's databases. This greatly improved the IT department's workflow when they had to check or remove database permissions from their employees.",
+            "At Provincial Health (PHSA) I was mainly responsible for creating employee-related data reports using Microsoft's SQL Server and Reporting Services suite to extract data-driven insights to influence\
+            business decisions. Throughout my internship, I refactored and optimized several data reports and their associated SQL scripts through query optimization. My biggest achievement was creating a report\
+            that displayed all IT employees' permissions to PHSA's databases. This greatly improved the IT department's workflow when they had to check or remove database permissions from their employees.",
         image: "images/phsa-logo.jpg",
-        id: 1,
+        id: 2,
     },
 ];
