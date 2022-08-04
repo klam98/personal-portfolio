@@ -66,5 +66,8 @@ export const JobInfo = styled.p`
     color: #cccccc;
     font-size: 1.75rem;
     line-height: 24px;
-    text-align: left;
+    text-align: justify;
+    @media ${(props) => props.theme.breakpoints.xs} {
+        text-align: left;
+    }
 `;

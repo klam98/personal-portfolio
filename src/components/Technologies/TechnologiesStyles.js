@@ -71,6 +71,7 @@ export const ListTitle = styled.h4`
     letter-spacing: 0.02em;
     color: #e4e6e7;
     margin-bottom: 8px;
+    padding-left: 0.4rem;
 
     @media ${(props) => props.theme.breakpoints.md} {
         font-size: 24px;
@@ -89,6 +90,7 @@ export const ListParagraph = styled.p`
     font-size: 18px;
     line-height: 30px;
     color: rgba(255, 255, 255, 0.75);
+    padding-left: 0.4rem;
 
     @media ${(props) => props.theme.breakpoints.md} {
         font-size: 16px;
@@ -117,7 +119,7 @@ export const ListItem = styled.li`
     }
 `;
 
-export const ListIcon = styled.img`
+export const ListIcon = styled.picture`
     display: block;
     width: 48px;
     height: 48px;

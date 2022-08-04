@@ -1,8 +1,8 @@
 import React from "react";
 import { AiOutlineCode, AiOutlineTool } from "react-icons/ai";
-import { DiFirebase, DiReact } from "react-icons/di";
+import { DiReact } from "react-icons/di";
 import { Section, SectionDivider, SectionText, SectionTitle } from "../../styles/GlobalComponents";
-import { List, ListContainer, ListItem, ListParagraph, ListTitle } from "./TechnologiesStyles";
+import { List, ListContainer, ListItem, ListParagraph, ListTitle, ListIcon } from "./TechnologiesStyles";
 
 const Technologies = () => (
     <Section id="tech">
@@ -15,18 +15,18 @@ const Technologies = () => (
         </SectionText>
         <List>
             <ListItem>
-                <picture>
+                <ListIcon>
                     <AiOutlineCode size="4rem" />
-                </picture>
+                </ListIcon>
                 <ListContainer>
                     <ListTitle>Languages</ListTitle>
                     <ListParagraph>Python, Java, SQL, C, C++, JavaScript, HTML5, CSS3</ListParagraph>
                 </ListContainer>
             </ListItem>
             <ListItem>
-                <picture>
+                <ListIcon>
                     <DiReact size="4rem" />
-                </picture>
+                </ListIcon>
                 <ListContainer>
                     <ListTitle>Frameworks</ListTitle>
                     <ListParagraph>
@@ -35,9 +35,9 @@ const Technologies = () => (
                 </ListContainer>
             </ListItem>
             <ListItem>
-                <picture>
+                <ListIcon>
                     <AiOutlineTool size="4rem" />
-                </picture>
+                </ListIcon>
                 <ListContainer>
                     <ListTitle>Tools</ListTitle>
                     <ListParagraph>
