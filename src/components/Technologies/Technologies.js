@@ -20,7 +20,7 @@ const Technologies = () => (
                 </ListIcon>
                 <ListContainer>
                     <ListTitle>Languages</ListTitle>
-                    <ListParagraph>Python, Java, SQL, C, C++, JavaScript, HTML5, CSS3</ListParagraph>
+                    <ListParagraph>TypeScript / JavaScript, Python, SQL, Java, C / C++, HTML5, CSS3</ListParagraph>
                 </ListContainer>
             </ListItem>
             <ListItem>
@@ -30,7 +30,7 @@ const Technologies = () => (
                 <ListContainer>
                     <ListTitle>Frameworks</ListTitle>
                     <ListParagraph>
-                        React, Node.js, Express.js, Spring Boot, JUnit, MongoDB, PostgreSQL
+                        React, React-Native, Node.js, Express.js, PostgreSQL, Expo, Jest, Mocha, Chai
                     </ListParagraph>
                 </ListContainer>
             </ListItem>
@@ -41,7 +41,7 @@ const Technologies = () => (
                 <ListContainer>
                     <ListTitle>Tools</ListTitle>
                     <ListParagraph>
-                        Git, Docker, Jenkins, Jira, Confluence, SonarQube, Wireshark, CI/CD, Agile/Scrum
+                        Git, Jira, Docker, Kubernetes, CircleCI, ArgoCD, Google Cloud Logging, Prometheus, Postman, ngrok
                     </ListParagraph>
                 </ListContainer>
             </ListItem>

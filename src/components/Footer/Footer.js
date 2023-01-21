@@ -40,7 +40,7 @@ const Footer = () => {
             <SocialIconsContainer>
                 <CompanyContainer>
                     <Slogan>
-                        © Copyright 2022 Kenrick Lam
+                        © Copyright 2023 Kenrick Lam
                         <br /> Built with React and Next.js.
                     </Slogan>
                 </CompanyContainer>

@@ -21,8 +21,8 @@ const Hero = (props) => (
             <form
                 method="get"
                 target="_blank"
-                title="Kenrick-Lam-Resume-Aug2022.pdf"
-                action="Kenrick-Lam-Resume-Aug2022.pdf"
+                title="Kenrick Lam Resume - Jan 2023"
+                action="Kenrick-Lam-Resume-Jan2023.pdf"
             >
                 <Button type="submit">View My Resume</Button>
             </form>

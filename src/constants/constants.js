@@ -75,6 +75,18 @@ export const achievementsData = [
 
 export const employmentData = [
     {
+        company: "Spare",
+        jobTitle: "Junior Software Engineer",
+        dateStart: "Nov 2022",
+        dateEnd: "Present",
+        description:
+            "At Spare I am a member on the Open team which owns the Spare Engage product and is responsible for managing API integrations with partnering mobility providers like Lyft and Uber. I mainly work on\
+            adding new API-related features and bugfixes in TypeScript and Node.js to support these integrations. Lately, I've been working on adding user interface components on both Spare's web and mobile platforms\
+            using React and React-Native which improved customer experience.",
+        image: "images/spare-logo.png",
+        id: 0,
+    },
+    {
         company: "Sophos",
         jobTitle: "Software Developer Intern",
         dateStart: "May 2022",
@@ -85,7 +97,7 @@ export const employmentData = [
             thus allowing customers to access those domains without issues. Throughout my internship, I learned how to write effective unit tests and communicate issues during code review, leading to high-quality\
             pull requests that were integrated into the product.",
         image: "images/sophos-logo.jpg",
-        id: 0,
+        id: 1,
     },
     {
         company: "Kids Shield Services Inc.",
@@ -97,7 +109,7 @@ export const employmentData = [
             pages with user authentication, and also created a landing page for them to improve marketing efforts. I also integrated a MySQL database through cPanel to store important information from submitted\
             forms, like emails, for example, to set up a mailing list for customers. Other optimizations I made include reducing page load times and increasing the website's search engine optimization (SEO).",
         image: "images/kids-shield-logo.jpg",
-        id: 1,
+        id: 2,
     },
     {
         company: "Provincial Health",
@@ -109,6 +121,6 @@ export const employmentData = [
             business decisions. Throughout my internship, I refactored and optimized several data reports and their associated SQL scripts through query optimization. My biggest achievement was creating a report\
             that displayed all IT employees' permissions to PHSA's databases. This greatly improved the IT department's workflow when they had to check or remove database permissions from their employees.",
         image: "images/phsa-logo.jpg",
-        id: 2,
+        id: 3,
     },
 ];
