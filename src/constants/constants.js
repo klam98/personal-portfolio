@@ -108,7 +108,7 @@ export const employmentData = [
             "At Kids Shield Services Inc I was mainly responsible for designing and implementing features on the Kids Shield website using JavaScript and Joomla CMS. For instance, I set up their login/registration\
             pages with user authentication, and also created a landing page for them to improve marketing efforts. I also integrated a MySQL database through cPanel to store important information from submitted\
             forms, like emails, for example, to set up a mailing list for customers. Other optimizations I made include reducing page load times and increasing the website's search engine optimization (SEO).",
-        image: "images/kids-shield-logo.jpg",
+        image: "images/kids-shield-logo.png",
         id: 2,
     },
     {
