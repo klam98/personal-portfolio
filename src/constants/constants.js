@@ -81,7 +81,7 @@ export const employmentData = [
         dateEnd: "Present",
         description:
             "At Spare I am a member of the Open Team working on Spare's Open Fleets technology which is external on-demand ridesharing services with partnering mobility providers like Lyft and Uber.\
-            I primarily work on backend API integrations (using TypeScript, Node.js) with Spare's partnering companies into our platform — working on new features that customers request.\
+            I primarily work on backend API integrations (using TypeScript, Node.js) for Spare's partnering companies into our platform — adding in new features that customers request.\
             Throughout my time at Spare, I have grown a lot as an engineer. I've worked on and owned projects for external stakeholders throughout the entire SDLC: eliciting requirements →\
             writing technical design specifications → software implementation → unit/integration testing → deployment to production.",
         image: "images/spare-logo.png",
