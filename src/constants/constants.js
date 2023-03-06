@@ -80,9 +80,10 @@ export const employmentData = [
         dateStart: "Nov 2022",
         dateEnd: "Present",
         description:
-            "At Spare I am a member on the Open team which owns the Spare Engage product and is responsible for managing API integrations with partnering mobility providers like Lyft and Uber. I mainly work on\
-            adding new API-related features and bugfixes in TypeScript and Node.js to support these integrations. Lately, I've been working on adding user interface components on both Spare's web and mobile platforms\
-            using React and React-Native which improved customer experience.",
+            "At Spare I am a member of the Open Team working on Spare's Open Fleets technology which is external on-demand ridesharing services with partnering mobility providers like Lyft and Uber.\
+            I primarily work on backend API integrations (using TypeScript, Node.js) with Spare's partnering companies into our platform — working on new features that customers request.\
+            Throughout my time at Spare, I have grown a lot as an engineer. I've worked on and owned projects for external stakeholders throughout the entire SDLC: eliciting requirements →\
+            writing technical design specifications → software implementation → unit/integration testing → deployment to production.",
         image: "images/spare-logo.png",
         id: 0,
     },

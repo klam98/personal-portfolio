@@ -4,7 +4,7 @@ import Button from "../../styles/GlobalComponents/Button";
 import { HeroSection, LeftSection, HeroTitle, HeroText, Img } from "./HeroStyles";
 const memoji = "images/kenrick-memoji.png";
 
-const Hero = (props) => (
+const Hero = () => (
     <HeroSection row nopadding>
         <LeftSection>
             <HeroTitle main center id="welcome">
