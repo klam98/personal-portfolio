@@ -14,15 +14,14 @@ const Hero = () => (
                 <Img src={memoji} alt="apple emoji" />
             </div>
             <HeroText>
-                Greetings and welcome to my website. My name is Kenrick and I am a Software
-                Developer from Vancouver BC, Canada. I am very eager to grow in both my professional
-                and personal life by improving my skillset and meeting new people.
+                Welcome to my website. My name is Kenrick and I am a Software Developer from Vancouver BC, Canada.
+                I love learning new technologies and frameworks to help build applications I am passionate about!
             </HeroText>
             <form
                 method="get"
                 target="_blank"
-                title="Kenrick Lam Resume - Jan 2023"
-                action="Kenrick-Lam-Resume-Jan2023.pdf"
+                title="Kenrick Lam Resume - Mar 2023"
+                action="Kenrick-Lam-Resume-Mar2023.pdf"
             >
                 <Button type="submit">View My Resume</Button>
             </form>
