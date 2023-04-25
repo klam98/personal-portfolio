@@ -30,7 +30,7 @@ const Technologies = () => (
                 <ListContainer>
                     <ListTitle>Frameworks</ListTitle>
                     <ListParagraph>
-                        React, React-Native, Node.js, Express.js, PostgreSQL, Expo, Jest, Mocha, Chai
+                        React, React Native, Node.js, Express.js, PostgreSQL, Expo, Jest, Mocha, Chai, Sinon
                     </ListParagraph>
                 </ListContainer>
             </ListItem>
@@ -41,7 +41,7 @@ const Technologies = () => (
                 <ListContainer>
                     <ListTitle>Tools</ListTitle>
                     <ListParagraph>
-                        Git, Jira, Docker, Kubernetes, CircleCI, ArgoCD, Google Cloud Logging, Prometheus, Postman, ngrok
+                        Git, Jira, Docker, Kubernetes, CircleCI, ArgoCD, Google Cloud Logging, Prometheus, Postman
                     </ListParagraph>
                 </ListContainer>
             </ListItem>
