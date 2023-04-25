@@ -13,6 +13,9 @@ import {
     SocialContainer,
     SocialIconsContainer,
 } from "./FooterStyles";
+import moment from "moment/moment";
+
+const currentYear = moment().year()
 
 const Footer = () => {
     return (
@@ -40,7 +43,7 @@ const Footer = () => {
             <SocialIconsContainer>
                 <CompanyContainer>
                     <Slogan>
-                        © Copyright 2023 Kenrick Lam
+                        © Copyright {currentYear} Kenrick Lam
                         <br /> Built with React and Next.js.
                     </Slogan>
                 </CompanyContainer>
