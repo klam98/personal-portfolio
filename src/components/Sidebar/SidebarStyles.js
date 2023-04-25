@@ -21,7 +21,7 @@ export const DarkOverlay = styled.aside`
     z-index: 35;
     height: 100%;
     width: 100%;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.65);
     display: grid;
     top: 0;
     left: 0;
