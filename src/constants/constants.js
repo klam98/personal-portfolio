@@ -6,7 +6,6 @@ export const projects = [
         image: "images/story-time.jpg",
         tags: ["MongoDB", "Express", "React", "Node.js"],
         source: "https://github.com/klam98/story-time",
-        visit: "https://story-time-web.netlify.app",
         id: 0,
     },
     {
@@ -16,7 +15,6 @@ export const projects = [
         image: "images/sfu-restaurant-finder.png",
         tags: ["PostgreSQL", "Express", "JavaScript", "Node.js"],
         source: "https://github.com/klam98/SFU-Restaurant-Finder",
-        visit: "https://sfu-restaurant-finder.herokuapp.com",
         id: 1,
     },
     {

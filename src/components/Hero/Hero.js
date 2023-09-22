@@ -20,8 +20,8 @@ const Hero = () => (
             <form
                 method="get"
                 target="_blank"
-                title="Kenrick Lam Resume - Mar 2023"
-                action="Kenrick-Lam-Resume-Mar2023.pdf"
+                title="Kenrick Lam Resume - Aug 2023"
+                action="Kenrick-Lam-Resume-Aug2023.pdf"
             >
                 <Button type="submit">View My Resume</Button>
             </form>
